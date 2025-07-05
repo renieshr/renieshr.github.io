@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/background.JPG">
-    <title>Rajesh Rajan  Photography Portfolio</title>
+    <link rel="preload" href="https://raw.githubusercontent.com/renieshr/rajesh/refs/heads/main/background.JPG">
+    <title>Rajesh Rajan Photography Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
+         <nav>
             <div class="logo">
                 <a href="#">Rajesh Rajan Photography</a>
             </div>
@@ -20,12 +20,16 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#commissions">Services</a></li>
+                <li><a href="#editorial">Stories</a></li>
+                <li><a href="#contact-studio">Contact</a></li>
             </ul>
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
+                <div class="line4"></div>
+                <div class="line5"></div>
             </div>
         </nav>
     </header>
@@ -33,18 +37,17 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1>Capturing Moments, Creating ever lasting memories.</h1>
-                <p>Welcome to your abode through Raj the lens.</p>
-                <a href="#portfolio" class="btn">View Portfolio</a>
+                <h1>Capturing Moments, Creating everlasting memories.</h1>
+                <p>Welcome to your world through the Raj lens.</p>
             </div>
         </section>
 
         <section id="portfolio" class="portfolio-gallery">
-            <h2>Rajesh Rajan Works</h2>
+            <h2>Portfolio</h2>
             <div class="gallery-grid">
                 <div class="gallery-item" data-category="baby shoot">
                     <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/baby.jpeg
-" alt="new born photos">
+" alt="newborn photos">
                     <div class="overlay">
                         <h3>Baby shoot</h3>
                         <p>capturing the cuteness of the future stars .</p>
@@ -68,7 +71,7 @@
                     <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/landscape2.jpeg" alt="sea View">
                     <div class="overlay">
                         <h3>Peak Serenity</h3>
-                        <p>silent sea shore at dusk.</p>
+                        <p>silent seashore at dusk.</p>
                     </div>
                 </div>
                 <div class="gallery-item" data-category="portrait">
@@ -89,7 +92,7 @@
         </section>
 
         <section id="about" class="about-me">
-            <h2>About Me</h2>
+            <h2>My Story</h2>
             <div class="about-content">
                 <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/yourphoto.jpeg" class="profile-photo">
                 <p>Hello! I'm rajesh, a passionate photographer based in bengaluru. My journey into photography began from childwood when I discovered the magic of freezing moments in album captured by my father. I specialize in landscape, portrait, baby shoot and wedding photography, always striving to tell a unique story with every click of the shutter.</p>
@@ -97,37 +100,68 @@
                 <p>Feel free to browse my portfolio and don't hesitate to reach out if you have any questions or would like to discuss a project.</p>
             </div>
         </section>
-
-        <section id="contact" class="contact-section">
-            <h2>Get In Touch</h2>
-            <p>I'd love to hear from you!</p>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+        </section>
+        </section>
+        <section id="commissions" class="section-padded editorial-section">
+            <h2>Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Baby Shoot</h3>
+                    <p>custom made photos</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email id:</label>
-                    <input type="email" id="email" name="email" required>
+                <div class="service-item">
+                    <h3>Pre-Wedding</h3>
+                    <p>Collaborate on your future match making events.</p>
                 </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                <div class="service-item">
+                    <h3>Private Collections</h3>
+                    <p>Bespoke photographic projects for personal acquisition.</p>
                 </div>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            </div>
+            <a href="#contact-studio" class="btn btn-editorial">Inquire About Services</a>
+        </section>
+        <section id="editorial" class="section-padded editorial-blog-section">
+            <h2>The Stories</h2>
+            <div class="blog-preview-grid">
+                <article class="blog-card">
+                    <img src="https://raw.githubusercontent.com/renieshr/rajesh/refs/heads/main/peacock.jpeg" alt="Blog Post 1">
+                    <div class="card-content">
+                        <h3><a href="#">The Aesthetics of Silence</a></h3>
+                        <span class="date">June 10, 2025</span>
+                        <p>A reflection on finding quiet moments in a noisy world...</p>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://raw.githubusercontent.com/renieshr/rajesh/refs/heads/main/snake.jpeg" alt="Blog Post 2">
+                    <div class="card-content">
+                        <h3><a href="#">Behind the Lens: My Process</a></h3>
+                        <span class="date">May 25, 2025</span>
+                        <p>An intimate look into my workflow from concept to print...</p>
+                    </div>
+                </article>
+            </div>
+            <a href="#" class="btn btn-editorial">Read All stories</a>
+        </section>
+        <section id="contact-studio" class="section-padded contact-editorial-section">
+            <h2>Let's Connect</h2>
+            <div class="contact-details-editorial">
+                <p><strong>Rajesh R</strong></p>
+                <p>BTM Layout, Bengaluru, Karnataka, India</p>
+                <p>Email: <a href="mailto:info@yourstudio.com">rajeysh7@gmail.com</a></p>
+                <p>Phone: +91 8660913747</p>
+            </div>
             <div class="social-links">
-                <a href="https://www.instagram.com/rajeysh_raj" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/your_facebook" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.youtube.com/@rajrey7" target="_blank" aria-label="LinkedIn"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/rajeysh_raj" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@rajrey7" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-youtube"></i></a>
             </div>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2025 Rajesh Rajan Photography. All rights reserved.</p>
+ </footer>
+        <p>&copy; 2025 Rajesh Raj N Photography. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
+    <script src="lightbox.js"></script>
 </body>
 </html>
