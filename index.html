@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="https://raw.githubusercontent.com/renieshr/rajesh/refs/heads/main/background.JPG">
+    <link rel="preload" href="images/background.JPG">
     <title>Rajesh Rajan Photography Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -11,157 +11,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-         <nav>
-            <div class="logo">
-                <a href="#">Rajesh Rajan Photography</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#commissions">Services</a></li>
-                <li><a href="#editorial">Stories</a></li>
-                <li><a href="#contact-studio">Contact</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-                <div class="line4"></div>
-                <div class="line5"></div>
-            </div>
+    <header class="header">
+        <a href="index.html" class="logo">Rajesh Rajan Photography Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </header>
-
     <main>
-        <section id="home" class="hero">
+        <section class="hero-section">
             <div class="hero-content">
                 <h1>Capturing Moments, Creating everlasting memories.</h1>
                 <p>Welcome to your world through the Raj lens.</p>
-            </div>
-        </section>
-
-        <section id="portfolio" class="portfolio-gallery">
-            <h2>Portfolio</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item" data-category="baby shoot">
-                    <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/baby.jpeg
-" alt="newborn photos">
-                    <div class="overlay">
-                        <h3>Baby shoot</h3>
-                        <p>capturing the cuteness of the future stars .</p>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="portrait">
-                    <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/portrait1.JPG" alt="Stunning Portrait">
-                    <div class="overlay">
-                        <h3>Soulful Gaze</h3>
-                        <p>Capturing the essence of human marvel.</p>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="candid">
-                    <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/portrait2.jpeg" alt="candid">
-                    <div class="overlay">
-                        <h3>cuteness</h3>
-                        <p>Timeless moments from a special day.</p>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="landscape">
-                    <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/landscape2.jpeg" alt="sea View">
-                    <div class="overlay">
-                        <h3>Peak Serenity</h3>
-                        <p>silent seashore at dusk.</p>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="portrait">
-                    <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/baby1.jpeg" alt="Smiling Child">
-                    <div class="overlay">
-                        <h3>Innocent Joy</h3>
-                        <p>Pure happiness in a child's smile.</p>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="nature">
-                    <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/dragonfly.jpeg" alt="dragon fly Details">
-                    <div class="overlay">
-                        <h3>Intricate Details</h3>
-                        <p>The small touches that tell a story.</p>
-                    </div>
-                </div>
-                </div>
-        </section>
-
-        <section id="about" class="about-me">
-            <h2>My Story</h2>
-            <div class="about-content">
-                <img src="https://raw.githubusercontent.com/renieshr/renieshr.github.io/refs/heads/main/yourphoto.jpeg" class="profile-photo">
-                <p>Hello! I'm rajesh, a passionate photographer based in bengaluru. My journey into photography began from childwood when I discovered the magic of freezing moments in album captured by my father. I specialize in landscape, portrait, baby shoot and wedding photography, always striving to tell a unique story with every click of the shutter.</p>
-                <p>My approach is natural, candid and artistic. I believe that the best photographs are those that evoke emotion and connect with the viewer on a deeper level. When I'm not behind the camera, you can find me exploring new places, hiking, rappelling.</p>
-                <p>Feel free to browse my portfolio and don't hesitate to reach out if you have any questions or would like to discuss a project.</p>
-            </div>
-        </section>
-        </section>
-        </section>
-        <section id="commissions" class="section-padded editorial-section">
-            <h2>Services</h2>
-            <div class="service-grid">
-                <div class="service-item">
-                    <h3>Baby Shoot</h3>
-                    <p>custom made photos</p>
-                </div>
-                <div class="service-item">
-                    <h3>Pre-Wedding</h3>
-                    <p>Collaborate on your future match making events.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Private Collections</h3>
-                    <p>Bespoke photographic projects for personal acquisition.</p>
-                </div>
-            </div>
-            <a href="#contact-studio" class="btn btn-editorial">Inquire About Services</a>
-        </section>
-        <section id="editorial" class="section-padded editorial-blog-section">
-            <h2>The Stories</h2>
-            <div class="blog-preview-grid">
-                <article class="blog-card">
-                    <img src="https://raw.githubusercontent.com/renieshr/rajesh/refs/heads/main/peacock.jpeg" alt="Blog Post 1">
-                    <div class="card-content">
-                        <h3><a href="#">The Aesthetics of Silence</a></h3>
-                        <span class="date">June 10, 2025</span>
-                        <p>A reflection on finding quiet moments in a noisy world...</p>
-                    </div>
-                </article>
-                <article class="blog-card">
-                    <img src="https://raw.githubusercontent.com/renieshr/rajesh/refs/heads/main/snake.jpeg" alt="Blog Post 2">
-                    <div class="card-content">
-                        <h3><a href="#">Behind the Lens: My Process</a></h3>
-                        <span class="date">May 25, 2025</span>
-                        <p>An intimate look into my workflow from concept to print...</p>
-                    </div>
-                </article>
-            </div>
-            <a href="#" class="btn btn-editorial">Read All stories</a>
-        </section>
-        <section id="contact-studio" class="section-padded contact-editorial-section">
-            <h2>Let's Connect</h2>
-            <div class="contact-details-editorial">
-                <p><strong>Rajesh R</strong></p>
-                <p>BTM Layout, Bengaluru, Karnataka, India</p>
-                <p>Email: <a href="mailto:info@yourstudio.com">rajeysh7@gmail.com</a></p>
-                <p>Phone: +91 8660913747</p>
-            </div>
-            <div class="social-links">
-                <a href="https://www.instagram.com/rajeysh_raj" target="_blank" aria-label="Instagram"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/@rajrey7" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-youtube"></i></a>
+                <a href="portfolio.html" class="btn">Explore My Work</a>
             </div>
         </section>
     </main>
- </footer>
-        <p>&copy; 2025 Rajesh Raj N Photography. All Rights Reserved.</p>
+     <footer class="footer">
+        <p>&copy; 2025 Rajesh Rajan Photography Portfolio. All rights reserved.</p>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
     <script src="lightbox.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
